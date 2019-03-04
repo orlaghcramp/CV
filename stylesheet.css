@@ -1,0 +1,39 @@
+.bigname{font-size: 30;
+}
+.title2 {font-size: 20;
+background-color: E5D2D2;
+border: 1px solid  grey;
+  padding: 10px;
+  padding-top: 2px;
+  text-align: center;
+margin-left: 30;
+margin-right: 30;
+margin-top: 20;}
+
+.title3 {margin-left: 30;
+margin-top: 17;}
+
+.body{ text-align: center;}
+
+.body2 {margin-left: 30;}
+
+.container-fluid {background-color: EBE4E4;}
+
+.bigname {margin-top: 20;
+margin-left: 30;
+margin-bottom: 20;}
+
+.skill-image {margin-left: 30;
+              margin-bottom: 30;}
+
+.resume {border: 2px solid  navy;
+font-size: 20;
+font-color: grey;
+background-color: lightPink;
+text-align: center;
+padding: 11;
+margin-left: 20;
+margin-right: 20;
+margin-top: 20px;
+margin-bottom: 20;
+}
