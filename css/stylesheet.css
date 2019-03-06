@@ -27,7 +27,8 @@ font-family: 'Times New Roman', sans-serif;
 .contactme {font-family: 'Times New Roman', sans-serif;
 margin-left: 30;
 margin-top: 30;
-margin-bottom: 30;}
+margin-bottom: 30;
+text-align: center;}
 
 .contact-background {background-color: #FDDADA;}
 
@@ -84,4 +85,8 @@ margin-top: 15;}
 
 .hobbies-name {margin-bottom: 30;}
 
-.background-image: url("https://images.unsplash.com/photo-1487147264018-f937fba0c817?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60");
+#googleForm {
+  /*margin-left: auto;/*
+  /*margin-right: auto;*/
+  text-align: center;
+}
