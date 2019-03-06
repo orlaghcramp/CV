@@ -17,7 +17,6 @@ margin-top: 17;
 font-family: 'Times New Roman', sans-serif;}
 
 
-
 .title4 {margin-left: 30;
 margin-top: 17;
 font-family: 'Times New Roman', sans-serif;
@@ -75,7 +74,7 @@ margin-bottom: 20;
 
 
 
-.namebackground {background-color: #FDDADA;}
+.namebackground {background-color:#FDDADA;}
 
 .hobbies {margin-left: 30;
 margin-bottom: 5;
@@ -91,9 +90,11 @@ margin-top: 15;}
   text-align: center;
 }
 
-
 .DataViz {font-family: 'Times New Roman', sans-serif;
-margin-left: 30;
-margin-top: 30;
-margin-bottom: 30;
-text-align: center;}
+margin-left: 35;
+margin-top: 35;
+margin-bottom: 35;
+text-align: center;
+background-color:#ECEBEC;}
+
+.col-2 {background-color: #ECEBEC; text-align: "left"; align:"left";}
