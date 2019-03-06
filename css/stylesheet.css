@@ -1,4 +1,5 @@
 .bigname{font-size: 30;
+  font-family: 'Acme', sans-serif;
 }
 .title2 {font-size: 20;
 background-color: E5D2D2;
@@ -8,10 +9,28 @@ border: 1px solid  grey;
   text-align: center;
 margin-left: 30;
 margin-right: 30;
-margin-top: 20;}
+margin-top: 20;
+font-family: 'Acme', sans-serif;}
 
-.title3 {margin-left: 30;
-margin-top: 17;}
+.title3 { text-align: center;
+margin-top: 17;
+font-family: 'Acme', sans-serif;}
+
+
+
+.title4 {margin-left: 30;
+margin-top: 17;
+font-family: 'Acme', sans-serif;
+}
+
+
+.contactme {font-family: 'Acme', sans-serif;
+margin-left: 30;
+margin-top: 30;
+margin-bottom: 30;}
+
+.contact-background {background-color: #FDDADA;}
+
 
 .body{ text-align: center;}
 
@@ -37,3 +56,31 @@ margin-right: 20;
 margin-top: 20px;
 margin-bottom: 20;
 }
+
+.myname {text-align: center;
+  font-family: 'Acme', sans-serif;
+  margin-top: 30;
+  color: 683A3A;
+}
+.mytitle {text-align: center;
+  font-family: 'Acme', sans-serif;
+  color: 845656;
+}
+.selfie-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15;
+}
+
+
+
+.namebackground {background-color: #FDDADA;}
+
+.hobbies {margin-left: 30;
+margin-bottom: 5;
+margin-top: 15;}
+
+.hobbies2 {display: inline-block; }
+
+.hobbies-name {margin-bottom: 30;}
