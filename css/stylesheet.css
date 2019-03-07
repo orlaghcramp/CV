@@ -59,11 +59,15 @@ margin-bottom: 20;
 .myname {text-align: center;
   font-family: 'Times New Roman', sans-serif;
   margin-top: 30;
-  color: 683A3A;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: 181818;
 }
 .mytitle {text-align: center;
   font-family: 'Times New Roman', sans-serif;
-  color: 845656;
+  color: 282828;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 .selfie-image {
   display: block;
