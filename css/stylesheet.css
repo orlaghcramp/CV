@@ -32,9 +32,10 @@ text-align: center;}
 
 .contact-background {background-color: #FDDADA;}
 
-.body{ text-align: center;}
+.body {text-align: center;}
 
-.body2 {margin-left: 30;}
+.body2 {margin-left: 30;
+text-align: center;}
 
 .container-fluid {background-color: EBE4E4;}
 
@@ -47,7 +48,7 @@ margin-bottom: 20;}
 
 .resume {
 color: #b366ff;
-border: 2px solid  #b366ff;
+border: 2px solid  #000000;
 font-size: 20;
 background-color: #f2e6ff;
 text-align: center;
