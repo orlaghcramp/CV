@@ -44,10 +44,11 @@ margin-bottom: 20;}
 .skill-image {margin-left: 30;
               margin-bottom: 30;}
 
-.resume {border: 2px solid  navy;
+.resume {
+color: #b366ff;
+border: 2px solid  #b366ff;
 font-size: 20;
-font-color: grey;
-background-color: lightPink;
+background-color: #f2e6ff;
 text-align: center;
 padding: 11;
 margin-left: 20;
@@ -119,8 +120,8 @@ background-color:#ECEBEC;}
 
 /* Set a specific color for each brand */
 
-/* Facebook */
-.fa-facebook {
+/* LinkedIn */
+.fa-linkedin {
   background: #3B5998;
   color: white;
 }
