@@ -133,3 +133,20 @@ background-color:#ECEBEC;}
 .aboutme {
   background-color: #ffffff;
 }
+
+
+.twitter {
+    position: absolute;
+    width: 96%;
+    left: 0;
+    text-align: right;
+    margin:0 auto;
+}
+
+.linkedinicon {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: right;
+    margin:0 auto;
+}
