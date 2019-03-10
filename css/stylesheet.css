@@ -1,5 +1,5 @@
 .bigname{font-size: 30;
-  font-family: 'Times New Roman', sans-serif;
+  font-family: 'Times New Roman', sans-serif'
   color: white;
 }
 .title2 {font-size: 20;
@@ -135,4 +135,7 @@ background-color:#ECEBEC;}
 
 .aboutme {
   background-color: #ffffff;
+}
+
+#navcontact {
 }
