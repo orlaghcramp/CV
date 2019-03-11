@@ -63,15 +63,15 @@ margin-bottom: 20;
 
 .myname {text-align: center;
   font-family: 'Times New Roman', sans-serif;
-  margin-top: 30;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40;
+  margin-top: 30px;
+  margin-bottom: 30px;
   color: #fff;
 }
 .mytitle {text-align: center;
   font-family: 'Times New Roman', sans-serif;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-bottom: 50px;
   color: #fff;
 }
 .selfie-image {
@@ -79,6 +79,7 @@ margin-bottom: 20;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 15;
+  margin-top: 15;
 }
 
 
@@ -136,7 +137,7 @@ background-color:#ECEBEC;}
 }
 
 .aboutme {
-  background-color: #ffffff;
+  background-color: none;
 }
 
 #navcontact {
@@ -162,4 +163,85 @@ background-color:#ECEBEC;}
   padding-right: 0;
   padding-left: 100px;
   align: "center";
+}
+
+.container-fluid.text-center {
+  background-color: white;
+}
+
+.intro {
+  background: url("https://images.unsplash.com/photo-1505562130589-9879683e72da?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+}
+
+body{
+  font-family: Helvetica, Arial, sans-serif;
+}
+.container{
+  width: 50%;
+  margin: 0 auto;
+}
+@keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-webkit-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-moz-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-o-keyframes load{
+  from {
+    width: 0%
+  }
+}
+
+.bar{
+  background-color: #EEE;
+  padding: 2px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #FFF;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.bar::before{
+  content:  attr(data-skill);
+  background-color: #f3b0ff;
+  display: inline-block;
+  padding: 5px 0 5px 10px;
+  border-radius: inherit;
+  animation: load 2s 0s;
+  -webkit-animation: load 2s 0s;
+  -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;
+}
+
+.bar.front::before{
+  background-color: #ffcc33;
+}
+.bar.back::before{
+  background-color: #a6cfe3;
+}
+
+.bar.learning::before{
+  width: calc(20% - 10px);
+}
+.bar.basic::before{
+  width: calc(40% - 10px);
+}
+.bar.intermediate::before{
+  width: calc(60% - 10px);
+}
+.bar.advanced::before{
+  width: calc(80% - 10px);
+}
+.bar.expert::before{
+  width: calc(100% - 10px);
 }
