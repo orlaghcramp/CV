@@ -269,3 +269,32 @@ body{
   background-color: white;
   padding-top: 20;
 }
+
+.cstone {
+  background-color: #e9cb31;
+}
+
+.ESB {
+  background-color: #ddce6e;
+}
+
+.snap {
+  background-color: #d9d9c2;
+}
+
+.mcd {
+  background-color: #676778;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+
+.educat {
+  text-align: center;
+  color: #424345;
+  padding: 40px;
+  font-family: 'Times New Roman', sans-serif;
+}
+
+.end {
+  padding: 30px;
+}
