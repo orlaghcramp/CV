@@ -302,6 +302,42 @@ body{
 margin-top: 50px;
 }
 
-filmm {
-  border: 2px solid  #424345;
+#filmm {
+  border: 2px solid  #676778;
+  background-color: white;
+  padding-top: 10;
+}
+
+#travel {
+  border: 2px solid  #676778;
+  background-color: white;
+  padding-top: 10;
+}
+
+#art {
+  border: 2px solid  #676778;
+  background-color: white;
+  padding-top: 10;
+}
+
+#volunteer {
+  border: 2px solid  #676778;
+  background-color: white;
+  padding-top: 10;
+}
+
+#education {
+  border: 2px solid  #676778;
+  background-color: white;
+  padding-top: 10;
+}
+
+#design {
+  border: 2px solid  #676778;
+  background-color: white;
+  padding-top: 10;
+}
+
+#hobbie {
+  background: none;
 }
