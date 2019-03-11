@@ -1,6 +1,7 @@
 .bigname{font-size: 30;
   font-family: 'Times New Roman', sans-serif'
   color: white;
+  text-align: left;
 }
 .title2 {font-size: 20;
 background-color: #ffc10e;
@@ -46,10 +47,11 @@ margin-bottom: 20;}
 .skill-image {margin-left: 30;
               margin-bottom: 30;}
 
+              /* click here to download my full resume */
 .resume {
 color: #b366ff;
 border: 2px solid  #000000;
-font-size: 20;
+font-size: 17;
 background-color: #f2e6ff;
 text-align: center;
 padding: 11;
