@@ -270,20 +270,30 @@ body{
 
 .cstone {
   background-color: #e9cb31;
+  padding: 20px;
+  margin-top: 0;
+}
+
+.VR {
+  background-color: #ddce6e;
+  padding: 20px;
 }
 
 .ESB {
-  background-color: #ddce6e;
+  background-color: #d9d9c2;
+  padding: 20px;
 }
 
 .snap {
-  background-color: #d9d9c2;
+  background-color: #676778;
+  color: white;
+padding: 20px;
 }
 
 .mcd {
-  background-color: #676778;
-  padding-bottom: 30px;
-  margin-bottom: 50px;
+  background-color: #272933;
+  color: white;
+  padding: 20px;
 }
 
 .educat {
@@ -294,7 +304,8 @@ body{
 }
 
 .end {
-  padding: 30px;
+  padding: 0px;
+  margin: 0px;
 }
 
 #homeid {
@@ -383,4 +394,29 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+/* The hero image */
+#expimg {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1455557412176-951a705225c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#fotterexp {
+  margin-top: 60px;
+}
+
+.back {
+        background: url("https://images.unsplash.com/photo-1528458876861-544fd1761a91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=721&q=80");
+        background-repeat: no-repeat;
+        background-size: cover;
 }
