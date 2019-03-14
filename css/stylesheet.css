@@ -99,7 +99,6 @@ margin: 0px;}
 
 .DataViz {font-family: 'Times New Roman', sans-serif;
 margin-top: 35;
-margin-bottom: 35;
 text-align: center;
 background-color:#ffc10e;
 color:#565759;
@@ -142,13 +141,21 @@ length: 20;}
 
 .tableau {
   text-align: "center";
-  margin-bottom: 5;
-  margin-top: 5;
-  margin-left: 85;
   margin-right: 0;
+  margin-top: 0;
   padding-right: 0;
   padding-left: 100px;
+  padding-top: 0;
   align: "center";
+  background-image: url("https://images.unsplash.com/photo-1528458876861-544fd1761a91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=721&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.tableauPlaceholder {
+  margin-top: 60;
+  background-color: #f5f5f0;
 }
 
 #collapsingNavbar3 {
@@ -178,6 +185,8 @@ body{
   width: 50%;
   margin: 0 auto;
 }
+
+
 @keyframes load{
   from {
     width: 0%
@@ -233,21 +242,27 @@ body{
 }
 .bar.basic::before{
   width: calc(40% - 10px);
+  background-color: #5cd65c;
 }
 .bar.intermediate::before{
   width: calc(60% - 10px);
 }
 .bar.advanced::before{
   width: calc(80% - 10px);
+  background-color: #ff3399;
 }
 .bar.expert::before{
   width: calc(100% - 10px);
+  background-color: #00ccff;
+
 }
 
 .thumbnail {
   padding: 0 0 15px 0;
   border: none;
   border-radius: 0;
+  background-color: white;
+  padding-top: 20;
 }
 
 .thumbnail.img {
@@ -261,10 +276,6 @@ body{
   padding: 40;
 }
 
-.thumbnail {
-  background-color: white;
-  padding-top: 20;
-}
 
 .cstone {
   background-color: #e9cb31;
@@ -302,8 +313,9 @@ padding: 20px;
 }
 
 .end {
-  padding: 0px;
-  margin: 0px;
+  background-image: url("https://images.unsplash.com/photo-1528458876861-544fd1761a91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=721&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #homeid {
@@ -423,4 +435,14 @@ body, html {
   text-align: center;
 }
 
-#
+#firstclients {
+  background: url("https://images.unsplash.com/photo-1528458876861-544fd1761a91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=721&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#secondclients {
+  background: url("https://images.unsplash.com/photo-1528458876861-544fd1761a91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=721&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
